@@ -1,0 +1,59 @@
+
+{
+    "sent": {
+        "responseCode": 201,
+        "message":"SENT|"
+    },
+    
+    "failed": {
+        "responseCode": 204,
+        "message":"FAILED|"
+    },
+    
+
+    "success": {
+
+        "success202":{
+            "successCode": 202,
+            "message": "SAVED"
+        },
+
+        "success203":{
+            "successCode": 203,
+            "message": "TOKEN SAVED"
+        }
+
+
+    },
+
+    "error": {
+        
+              
+        "error401":{
+            "errorCode": 401,
+            "message": "INVALID REQUEST | userID/userMSISDN missing"
+        },
+
+        "error402":{
+            "errorCode": 402,
+            "message": "FAILED"
+        },
+    
+        "error500":{
+            "errorCode": 500,
+            "message": "Internal Server Error"
+        },
+    
+        "error501":{
+            "errorCode": 501,
+            "message": "Not Implimented"
+        },
+    
+        "error503":{
+            "errorCode": 503,
+            "message": "Currently Unavailable"
+        }
+
+    }
+        
+}
