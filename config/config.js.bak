@@ -117,7 +117,7 @@ const config = {
     },
     
     redisDB : {
-        host: '127.0.0.1',
+        host: '',
         port: '',
         password: ''
     }
